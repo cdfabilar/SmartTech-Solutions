@@ -1,0 +1,21 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+/* Si solo deseas aplicar el width a imágenes con una clase específica */
+.bg-custom-1 {
+    background-color: rgb(0, 88, 4);
+}
+
+.bg-custom-2 {
+    background-color: rgb(151, 252, 123);
+}
+
+.fo-custom-1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
