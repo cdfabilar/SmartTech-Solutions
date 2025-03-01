@@ -7,13 +7,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/MapiStore', function () {
+Route::get('/SmartTech', function () {
     return view('LandingPage_Mapi');
 })->name('Landing');
 
 Route::get('/Productos', function () {
-    return view('Productos');
-})->name('Productos');
+    return view('Mi_Empresa');
+})->name('Mi Empresa');
 
 
 Auth::routes();
